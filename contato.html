@@ -10,6 +10,8 @@
 
     <link href="assets/css/style.css" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap" rel="stylesheet">
+
     <link rel="shortcut icon" href="assets/imagens/favicon_created_by_logaster.ico" type="image/x-icon" />
 
 </head>
@@ -38,25 +40,43 @@
     <main class="contato">
 
 
-        <h2>Deseja compartilhar suas receitas? Manda pra gente!</h2>
+        <div class="bloco">
 
-        <form>
-            <label for="nome"> Nome: </label>
-            <input id="nome" type="text">
+            <div class="sub">
+                <h2>Deseja compartilhar suas receitas? Manda pra gente!</h2>
 
-            <label for="email">Email: </label>
-            <input id="email" type="email" placeholder="seuemail@dominio.com">
+            </div>
 
-            <label for="telefone">Telefone:</label>
-            <input id="telefone" type="tel" placeholder="(xx)xxxxx-xxxx">
+            <div class="imagem">
+
+                <img src="assets/imagens/vovo-removebg-preview.png" class="voImg2">
+
+            </div>
+
+        </div>
 
 
-            <label for="receita">Escreva sua receita:</label>
-            <textarea name="receita" id="receita" cols="60" rows="5"></textarea>
+        <div class="formulario">
 
-            <button id="botaoEnviar"> Enviar </button>
+            <form>
+                <label for="nome"> Nome: </label>
+                <input id="nome" type="text" class="input-padrao">
 
-        </form>
+                <label for="email">Email: </label>
+                <input id="email" type="email" placeholder="seuemail@dominio.com" class="input-padrao">
+
+                <label for="telefone">Telefone:</label>
+                <input id="telefone" type="tel" placeholder="(xx)xxxxx-xxxx" class="input-padrao">
+
+
+                <label for="receita">Escreva sua receita:</label>
+                <textarea name="receita" id="receita" cols="70" rows="10" class="input-padrao"></textarea>
+
+                <button id="botaoEnviar"> Enviar </button>
+
+            </form>
+
+        </div>
 
     </main>
 
